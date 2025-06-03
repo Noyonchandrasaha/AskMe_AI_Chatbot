@@ -26,9 +26,7 @@ AskMe listens to your queries and responds with insightful answers, rendered wit
 - 👤 **User & Bot Avatars:** Distinct icons for user and AI messages  
 - 🕒 **Dynamic Greeting:** Greets you based on time of day  
 - 📜 **Markdown Support:** Responses rendered with markdown for better readability  
-
 ---
-
 ## 🏗️ Architecture
 
 User Browser (React UI)
@@ -36,10 +34,8 @@ User Browser (React UI)
 FastAPI Backend Server
          ↓ (Groq Accelerator)
 LLaMA 3 70B 8192 AI Model
-
-
 ---
-##🛠️ Installation & Setup
+## 🛠️ Installation & Setup
 **Backend Setup**
 1. Clone the repo and navigate to backend:
 git clone https://github.com/Noyonchandrasaha/AskMe_AI_Chatbot
@@ -62,20 +58,20 @@ npm start
 4.Open your browser at:
 http://localhost:3000
 ---
-##💡 Usage
+## 💡 Usage
 - Type your questions in the input field.
 - Hit Enter **or** click the **Send** icon.
 - Watch the bot reply with you question answers
 - Enjoy a smooth, responsive chat experience!
 ---
-##📚 Technologies Used
+## 📚 Technologies Used
 | Frontend                 | Backend | AI Model         | Accelerator   |
 | ------------------------ | ------- | ---------------- | ------------- |
 | React.js                 | FastAPI | LLaMA 3 70B 8192 | Groq hardware |
 | Ant Design (antd)        | Uvicorn |                  |               |
 | React Markdown Rendering | Python  |                  |               |
 ---
-##🙋 Author
+## 🙋 Author
 Noyon Chandra Saha
 © {new Date().getFullYear()} All rights reserved.
 Thank you for checking out AskMe! 💬✨
