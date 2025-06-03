@@ -10,8 +10,8 @@ Built with cutting-edge AI models and a sleek React interface, AskMe makes chatt
 AskMe is a conversational AI chatbot leveraging the **LLaMA 3 70B 8192** language model accelerated by **Groq** hardware.  
 It consists of:
 
-- A **React** frontend using **Ant Design** for a modern, responsive chat UI  
-- A **FastAPI** backend serving as the bridge between frontend requests and AI model inference  
+- A **React** frontend using **Ant Design** for a modern, responsive chat UI.  
+- A **FastAPI** backend serving as the bridge between frontend requests and AI model inference.  
 
 AskMe listens to your queries and responds with insightful answers, rendered with clean markdown formatting.
 
@@ -31,87 +31,52 @@ AskMe listens to your queries and responds with insightful answers, rendered wit
 
 ## 🏗️ Architecture
 
-```plaintext
 User Browser (React UI)
          ↓ (HTTP POST)
 FastAPI Backend Server
          ↓ (Groq Accelerator)
 LLaMA 3 70B 8192 AI Model
 
-🛠️ Installation & Setup
-🔧 Backend Setup
-Clone the repo and navigate to the backend:
 
-bash
-Copy
-Edit
-git clone https://github.com/Noyonchandrasaha/AskMe_AI_Chatbot.git
-cd AskMe_AI_Chatbot/backend
-Create and activate a virtual environment:
-
-bash
-Copy
-Edit
+---
+##🛠️ Installation & Setup
+**Backend Setup**
+1. Clone the repo and navigate to backend:
+git clone https://github.com/Noyonchandrasaha/AskMe_AI_Chatbot
+cd askme/backend
+2. Create and activate a virtual environment:
 python -m venv venv
-source venv/bin/activate      # For Windows: venv\Scripts\activate
-Install dependencies:
-
-bash
-Copy
-Edit
+source venv/bin/activate      # Windows: venv\Scripts\activate
+3.Install dependencies:
 pip install -r requirements.txt
-Start the FastAPI server:
-
-bash
-Copy
-Edit
+4. Start FastAPI server:
 uvicorn main:app --reload
-Make sure your Groq accelerator and LLaMA model environment are ready and connected.
-
-💻 Frontend Setup
-Navigate to the frontend directory:
-
-bash
-Copy
-Edit
+5. Make sure your Groq accelerator and LLaMA model environment are ready and connected.
+**Frontend Setup**
+1. Navigate to frontend directory:
 cd ../frontend
-Install npm dependencies:
-
-bash
-Copy
-Edit
+2. Install npm dependencies:
 npm install
-Run the React development server:
-
-bash
-Copy
-Edit
+3. Run the React development server:
 npm start
-Open your browser at:
-
-arduino
-Copy
-Edit
+4.Open your browser at:
 http://localhost:3000
-💡 Usage
-Type your questions in the input field
-
-Hit Enter or click the Send icon
-
-Watch the bot reply with your answer
-
-Enjoy a smooth, responsive chat experience!
-
-📚 Technologies Used
-Frontend	Backend	AI Model	Accelerator
-React.js	FastAPI	LLaMA 3 70B 8192	Groq hardware
-Ant Design (antd)	Uvicorn		
-React Markdown Rendering	Python		
-
-🙋 Author
+---
+##💡 Usage
+- Type your questions in the input field.
+- Hit Enter **or** click the **Send** icon.
+- Watch the bot reply with you question answers
+- Enjoy a smooth, responsive chat experience!
+---
+##📚 Technologies Used
+| Frontend                 | Backend | AI Model         | Accelerator   |
+| ------------------------ | ------- | ---------------- | ------------- |
+| React.js                 | FastAPI | LLaMA 3 70B 8192 | Groq hardware |
+| Ant Design (antd)        | Uvicorn |                  |               |
+| React Markdown Rendering | Python  |                  |               |
+---
+##🙋 Author
 Noyon Chandra Saha
 © {new Date().getFullYear()} All rights reserved.
-
-🙏 Thank You
 Thank you for checking out AskMe! 💬✨
 Happy chatting! 🎉
