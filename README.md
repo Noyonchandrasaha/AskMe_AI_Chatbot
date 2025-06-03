@@ -36,7 +36,7 @@ User Browser (React UI)
          ↓ (HTTP POST)
 FastAPI Backend Server
          ↓ (Groq Accelerator)
-LLaMA 3 70B 8192 AI Model
+LLaMA 3 70B 8192 AI Model ```
 
 ---
 ##🛠️ Installation & Setup
