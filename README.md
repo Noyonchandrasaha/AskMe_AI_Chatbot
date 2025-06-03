@@ -27,14 +27,7 @@ AskMe listens to your queries and responds with insightful answers, rendered wit
 - 🕒 **Dynamic Greeting:** Greets you based on time of day  
 - 📜 **Markdown Support:** Responses rendered with markdown for better readability  
 ---
-## 🏗️ Architecture
 
-User Browser (React UI)
-         ↓ (HTTP POST)
-FastAPI Backend Server
-         ↓ (Groq Accelerator)
-LLaMA 3 70B 8192 AI Model
----
 ## 🛠️ Installation & Setup
 **Backend Setup**
 1. Clone the repo and navigate to backend:
